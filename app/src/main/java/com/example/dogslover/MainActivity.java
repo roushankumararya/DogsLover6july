@@ -5,13 +5,22 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
+
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.Spinner;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -28,7 +37,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.example.dogslover.R.array;
+import static com.example.dogslover.R.drawable;
 import static com.example.dogslover.R.id;
+import static com.example.dogslover.R.layout;
+import static com.example.dogslover.R.string;
 
 
 
@@ -48,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityinter
     protected void onCreate(Bundle savedInstanceState) {
        // requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         super.onCreate(savedInstanceState);
-        setContentView(layout.);
+        setContentView(layout.activity_main);
        /* mTitle = mDrawerTitle = getTitle();
         mNavigationDrawerItemTitles= getResources().getStringArray(array.navigation_drawer_items_array);
         mDrawerLayout = (DrawerLayout) findViewById(id.drawer_layout);
