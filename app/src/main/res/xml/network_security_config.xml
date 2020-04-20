@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    </PreferenceScreen>-->
+<!--
+<network-security-config>
+    &lt;!&ndash;<base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>&ndash;&gt;
+     &lt;!&ndash;<domain-config cleartextTrafficPermitted="false">
+         <domain includeSubdomains="true">https://openptmap.org</domain>
+         <domain includeSubdomains="true">https://openmap.org</domain>
+     </domain-config>&ndash;&gt;
+</network-security-config>
+-->
+
+<!--<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>-->
+    <!--<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://schemas.android.com</domain>
+    </domain-config>
+    </network-security-config>-->
+<!--<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>-->
+
+<!--<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" overridePins="true"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>-->
+<!--<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>-->
+
+
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <!-- <domain-config cleartextTrafficPermitted="true">
+    <domain includeSubdomains="true">https://openptmap.org</domain>
+    <domain includeSubdomains="true">https://openmap.org</domain>
+    </domain-config>-->
+</network-security-config>

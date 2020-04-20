@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DogsLover</string>
+    <string name="Dog_prompt">Choose a dog name</string>
+
+    <string-array name="country_arrays">
+        <item>Bailey</item>
+        <item>Charlie</item>
+        <item>Max</item>
+        <item>Buddy</item>
+        <item>Cooper</item>
+        <item>Jack</item>
+        <item>Toby</item>
+        <item>Bear</item>
+        <item>Scout</item>
+        <item>Tucker</item>
+        <item>Dexter</item>
+        <item>Finn</item>
+        <item>Riley</item>
+        <item>Harley</item>
+        <item>Henry</item>
+        <item>Oscar</item>
+    </string-array>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>
