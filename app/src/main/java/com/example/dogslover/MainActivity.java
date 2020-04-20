@@ -5,22 +5,14 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Log;
 
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.Spinner;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.FragmentManager;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -37,15 +29,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.example.dogslover.R.array;
-import static com.example.dogslover.R.drawable;
 import static com.example.dogslover.R.id;
 import static com.example.dogslover.R.layout;
-import static com.example.dogslover.R.string;
 
 
-
-public class MainActivity extends AppCompatActivity implements MainActivityinterface {
+public class MainActivity extends AppCompatActivity {
 
 
 
@@ -87,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityinter
 
 
         spinner=(Spinner)findViewById(id.dogname);
-        addListenerOnSpinnerItemSelection();
+        //addListenerOnSpinnerItemSelection();
         etname=(EditText)findViewById(id.etregname);
         etaddress=(EditText)findViewById(id.etregaddress);
         etcity=(EditText)findViewById(id.etregcity);
@@ -310,8 +298,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityinter
         //adding the request to volley
         Volley.newRequestQueue(this).add(volleyMultipartRequest);
     }
-    private void addListenerOnSpinnerItemSelection() {
+  /*  private void addListenerOnSpinnerItemSelection() {
        // spinner = (Spinner) findViewById(R.id.dogname);
         spinner.setOnItemSelectedListener(new CustomOnItemSelectedListener());
-    }
+    }*/
 }

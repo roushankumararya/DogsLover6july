@@ -14,11 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".NavigationDrawer"></activity>
+        <activity android:name=".HamburgerMenu" />
         <activity android:name=".DogsRegistrationPageTwo" />
         <activity android:name=".USerLoginPage" />
         <activity android:name=".RegistrationDogPAge" />
-        <activity android:name=".DrawerLayoutFile">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

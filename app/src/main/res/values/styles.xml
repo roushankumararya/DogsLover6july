@@ -1,12 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <string-array name="navigation_drawer_items_array"
+    <!--<string-array name="navigation_drawer_items_array"
         parent="Theme.AppCompat.Dialog"
         >
         <item>Connect</item>
         <item>Fixtures</item>
         <item>Table</item>
-    </string-array>
+    </string-array>-->
 
 </resources>
