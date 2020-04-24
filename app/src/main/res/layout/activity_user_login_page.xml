@@ -7,6 +7,7 @@
     tools:context=".USerLoginPage">
 
     <LinearLayout
+        android:layout_alignParentTop="true"
         android:id="@+id/halfback"
         android:layout_width="match_parent"
         android:layout_height="450dp"
@@ -17,6 +18,61 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/homeicom"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/halfback"
+        android:orientation="vertical"
+        android:id="@+id/twolayout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/newloginborder"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            android:gravity="center"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PhoneNUmber"
+            android:paddingLeft="20dp"
+            android:textColor="#000"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PhoneNumber"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:paddingLeft="20dp"
+            android:textColor="#000"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UserPassword"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:paddingLeft="20dp"
             />
     </LinearLayout>
     <!--<RelativeLayout
@@ -31,7 +87,7 @@
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">-->
-       <RelativeLayout
+       <!--<RelativeLayout
            android:id="@+id/two"
            android:layout_alignParentBottom="true"
            android:layout_marginBottom="150dp"
@@ -123,9 +179,7 @@
                    android:textColor="#000"
                    android:layout_below="@+id/txtpass"
                    />
-
            </RelativeLayout>
-
            </RelativeLayout>
        </RelativeLayout>
     <LinearLayout
@@ -156,6 +210,6 @@
             />
     </LinearLayout>
 
-
+-->
 
 </RelativeLayout>

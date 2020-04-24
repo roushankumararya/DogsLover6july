@@ -18,9 +18,9 @@ public class USerLoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_login_page);
-        etname=(EditText)findViewById(R.id.etloginname);
+       /* etname=(EditText)findViewById(R.id.etloginname);
         etpass=(EditText)findViewById(R.id.etloginpass);
-        btnlogin=(Button)findViewById(R.id.loginbtnuserlogin);
+        btnlogin=(Button)findViewById(R.id.loginbtnuserlogin);*/
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
