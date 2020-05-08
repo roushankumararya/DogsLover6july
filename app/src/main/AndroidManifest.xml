@@ -14,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DogsRegistrationPage"></activity>
-        <activity android:name=".DogsCatcherDetail" />
+        <activity android:name=".DogsCatcherDetail"></activity>
+        <activity android:name=".DogsLoverApp" />
+        <activity android:name=".ImageUpload" />
+        <activity android:name=".DogsRegistrationPage" />
+        <activity android:name=".DesignLoginRegisterPage" />
         <activity
             android:name=".RegisterActivity"
             android:theme="@style/AppTheme.FullScreen" />
@@ -29,7 +32,7 @@
         <activity android:name=".USerLoginPage" />
         <activity android:name=".HamburgerMenu" />
         <activity
-            android:name=".DesignLoginRegisterPage"
+            android:name=".SplashActivity"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
