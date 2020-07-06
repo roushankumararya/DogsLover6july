@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DogsCatcherDetail"></activity>
+        <activity android:name=".VeterinaryDoctor"></activity>
+        <activity android:name=".SelectPage" />
+        <activity android:name=".DogsCatcherDetail" />
         <activity android:name=".DogsLoverApp" />
         <activity android:name=".ImageUpload" />
         <activity android:name=".DogsRegistrationPage" />

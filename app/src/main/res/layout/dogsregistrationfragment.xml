@@ -183,18 +183,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="10dp"
-                                        android:text="Dogs'Image"
+                                        android:text="Upload Dogs'Image"
                                         android:textColor="@color/colorPurple"
                                         android:textSize="14sp"
                                         android:textStyle="bold" />
                                     <ImageView
+                                        android:background="@color/colorWhite"
                                         android:layout_alignParentRight="true"
                                         android:layout_marginRight="20dp"
                                         android:id="@+id/dogsimage"
                                         android:layout_marginLeft="50dp"
                                         android:layout_width="80dp"
                                         android:layout_height="80dp"
-                                        android:src="@drawable/clickimg"
+
                                         />
                                 </RelativeLayout>
                             </LinearLayout>
